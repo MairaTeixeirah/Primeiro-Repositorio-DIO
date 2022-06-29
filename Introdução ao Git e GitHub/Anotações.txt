@@ -1,0 +1,30 @@
+Colocar anotações sobre o Curso
+
+link para dowload do Git https://git-scm.com/downloads
+
+O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Git - Sistema de versionamento de Código Gratuito. Criado e desenvolvido em 2005 por Linus Torvalds
+
+ Tópicos Fundamentais para entender o Funcionamento do Git:
+ 	- SHA1 -> encriptação conjunto de 40 caracteres identificador de 40 dígitos.
+	- Objetos Internos do Git: Blobs, Trees, Commits.
+
+		Blobs: Bloco básico de Composição. Este objeto contém metadados, então vai ter o tipo do objeto, o tamanho e o conteúdo do arquivo.
+		Trees: Armazenam blobs, aponta para Blobs e outras Trees. Responsável por montar toda a estrutura de onde está os arquivos.Caso houver alteração em algum blob, o seu SHA1 também irá alterar.
+		Commits: É o Objeto que vai juntar tudo. Aponta para Tree, Parente(o último commit realizado antes dele), autor, mensagem, horário que foi criado.
+	Git sistema distruibuído e seguro.
+
+  Alguns comandos Git Bash:
+	- git Init (iniciar o Git)
+	- git add (iniciar versionamento)
+	- git commit (criar um commit)
+	- cd/ (navegar entre as pastas)
+	- ls (listar)
+	- mkdir (criar pasta)
+	- git status
+	- git add . (mover arquivo seja unmodified ou modified para staged)
+	- git add * (pegar tudo o que está no diretório de trabalho e adc para staged para fazer o commit) 
+	- git push origian master ou main(enviar repositório local para repositório remoto)
+	- git pull origian master ou main(puxar código repositório remoto para repositório local)  
+	- ls -a (mostrar repositório oculto)
